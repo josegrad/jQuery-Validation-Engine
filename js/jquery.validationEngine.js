@@ -350,7 +350,7 @@
 
 			if (errorFound) {
 				if (options.scroll) {
-					var destination=first_err.offset().top + 160;
+					var destination=first_err.offset().top;
 					var fixleft = first_err.offset().left;
 
 					//prompt positioning adjustment support. Usage: positionType:Xshift,Yshift (for ex.: bottomLeft:+20 or bottomLeft:-20,+10)
